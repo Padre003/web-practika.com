@@ -1,0 +1,63 @@
+﻿/*Сбросим отступы*/
+.droplink ul,.droplink h3,.droplink h3 a{
+padding:0;margin:0
+}
+/*Базовая обертка*/
+.droplink {
+width:200px;
+position:absolute;
+margin:10px 0 0 25px
+}
+/*Стиль блока при наведении*/
+.droplink:hover{
+height:auto;
+background-color:#3E403D;
+border:solid 1px #3A3C39
+}
+/*Заголовок в обычном состоянии*/
+.droplink h3 a{
+text-align:center;
+width:100%;
+display:block;
+padding:12px 0px;
+color:#999;
+text-decoration:none
+}
+.droplink h3 a img{border:none}
+/*Стиль для заголовка при наведении*/
+.droplink:hover h3 a {
+color:#FFF;
+font-weight:bold;
+position:absolute
+}/*Скрываем список без наведения*/
+.droplink ul{
+list-style:none;
+display:none
+}
+/*Отображаем список при наведении*/
+.droplink:hover ul{
+display:block;
+margin-top:40px
+}
+.droplink li{display:block}/*Стиль элемента списка*/
+.droplink li a{
+padding:5px 12px 4px 34px;
+margin:1px;
+background-color:#484A47;
+display:block;
+color:#FFF;
+text-decoration:none;
+font-size:12px;
+background-repeat:no-repeat;
+background-position: 10px 3px
+}
+/*Стиль элемента при наведении*/
+.droplink li a:hover{
+background-color:#999
+}
+/*Иконки*/
+.facebook a {background-image:url("icons/facebook.png")}
+.twitter a {background-image:url("icons/twitter.png")}
+.vk a {background-image:url("icons/vk.png")}
+.rss a {background-image:url("icons/rss.png")}
+.gplus a {background-image:url("icons/gplus.png")}
